@@ -13,7 +13,7 @@ fn main(){
     // {} is being replaced by arguments
     println!("{} World", "Hello"); //output "Hello World"
     // {} can be filled with numbers or variable names
-    println!("{subject} {verb} {object}",object="a Rustacean", subject="I", verb="am");
+    println!("{subject} {verb} {object}", object="a Rustacean", subject="I", verb="am");
 
     // variables
     let logical: bool = true;
@@ -22,6 +22,9 @@ fn main(){
     let float3 = 3.0;     // default type
 
     let mut mutable = 12; // is mutable but only value not type
-    
+    mutable = 24;
+
+    let mutable = true;   // possible to overwrite like this
+
 
 }
