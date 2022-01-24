@@ -25,6 +25,4 @@ fn main(){
     mutable = 24;
 
     let mutable = true;   // possible to overwrite like this
-
-
 }
