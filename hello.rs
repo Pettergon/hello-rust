@@ -10,10 +10,6 @@
  /// markdown friendly
 
 fn main(){
-    // {} is being replaced by arguments
-    println!("{} World", "Hello"); //output "Hello World"
-    // {} can be filled with numbers or variable names
-    println!("{subject} {verb} {object}", object="a Rustacean", subject="I", verb="am");
 
     // variables
     let logical: bool = true;
