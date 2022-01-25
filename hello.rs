@@ -10,10 +10,4 @@
  /// markdown friendly
 
 fn main(){
-
-    // variables
-    let logical: bool = true;
-    let float: f64 = 3.0; // regular
-    let float2 = 3.0f64;  // Suffix
-    let float3 = 3.0;     // default type (f64)
 }
