@@ -8,6 +8,13 @@ pub fn run(){
     // reassign values
     habitants[1] = "Mr Crabs";
 
+    // Add on to vector
+    habitants.push("Patrick");
+    habitants.push("Sandy");
+
+    // pop last value
+    habitants.pop();
+
     println!("{:?}", habitants);
 
     // get single val
@@ -22,4 +29,18 @@ pub fn run(){
     // Slice
     let slice: &[&str] = &habitants[0..2];
     println!("Slice: {:?}", slice);
+
+    // Loop through
+    for x in habitants.iter(){
+        println!("Habitant: {}", x);
+    }
+
+    let mut numbers: Vec<i32> = vec![2, 4, 6, 8, 10];
+    // loop and mutate
+    for x in numbers.iter_mut(){
+        *x *= 2
+    }
+    println!("Numbers Vec: {:?}", numbers);
+
+
 }
