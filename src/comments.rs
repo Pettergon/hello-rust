@@ -8,6 +8,3 @@
  /// doc comment which is parsed into html library
  /// are being compiled into documentation running ```rustdoc```
  /// markdown friendly
-
-fn main(){
-}
