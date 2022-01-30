@@ -17,4 +17,6 @@ pub fn run() {
     // placeholder for debug
     println!("{:?}", (12, true, "hi"));
     
+    // for error handling panic
+    panic!("Crash and burn");    
 }
